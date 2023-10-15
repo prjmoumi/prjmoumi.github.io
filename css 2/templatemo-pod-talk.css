@@ -13,12 +13,12 @@ https://templatemo.com/tm-584-pod-talk
 -----------------------------------------*/
 :root {
   --white-color:                  #ffffff;
-  --primary-color:                rgb(237, 255, 226);
+  --primary-color:                #dbcbe4;
   --secondary-color:              #0066CC;
   --custom-btn-bg-color:          #0066CC;
   --custom-btn-bg-hover-color:    #00CC99;
   --dark-color:                   #000000;
-  --p-color:                      #717275;
+  --p-color:                      #000000;
   --border-color:                 #7fffd4;
   --link-hover-color:             #0066CC;
 
@@ -627,7 +627,7 @@ main {
 
 .custom-block-image-detail-page .custom-block-image {
   width: 100%;
-  height: 212px;
+  height: 100%;
 }
 
 .custom-block .custom-block-icon {
@@ -762,7 +762,7 @@ main {
 .custom-block-overlay .custom-block-image {
   margin: auto;
   width: 100%;
-  height: 210px;
+  height: 300px;
   transition: all 0.3s;
 }
 

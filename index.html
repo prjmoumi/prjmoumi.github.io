@@ -4,9 +4,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="author" content="Untree.co">
   <link rel="shortcut icon" href="hobbang.png"> 
-  <!-- 사진 넣으면 타이틀? 거기 부분에 아이콘 뜬다 이거 하는거 어때욤?-->
-  <!-- 근데 찌그러진 호빵맨이 되네 ;;;; 사가지-->
-
+ 
   <meta name="description" content="" />
   <meta name="keywords" content="bootstrap, bootstrap4" />
 
@@ -15,7 +13,7 @@
 		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 		<link href="css/tiny-slider.css" rel="stylesheet">
 		<link href="css/style.css" rel="stylesheet">
-		<title>MOUMI</title>
+		<title>MOUMI</title> 
 
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 
@@ -36,7 +34,14 @@
 		<link href="css 2/templatemo-pod-talk.css" rel="stylesheet">
 
 	</head>
-
+	<style>
+        .logoim {
+			font-size: 32px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #000000;
+    }
+    </style>
 	<body>
 
 		<!-- Header/Navigation -->
@@ -44,7 +49,10 @@
             <div class="container">
                 <a class="navbar-brand me-lg-5 me-0" href="index.html">
                     <img src="hobbang.png" class="logo-image img-fluid" alt="templatemo pod talk">
-                </a>
+				</a>
+				<a  href="index.html"><span class="logoim">
+                    MOUMI
+                </span></a>
 				<!-- 카테고리 -->
 				
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -61,9 +69,9 @@
                             <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
                                 <li><a class="dropdown-item" href="exhibition.html">전시회</a></li>
 
-                                <li><a class="dropdown-item" href="detail-page.html">팝업스토어</a></li>
+                                <li><a class="dropdown-item" href="popup.html">팝업스토어</a></li>
 
-								<li><a class="dropdown-item" href="detail-page.html">페스티벌</a></li>
+								<li><a class="dropdown-item" href="festival.html">페스티벌</a></li>
                             </ul>
                         </li>
 
@@ -72,9 +80,32 @@
                                 data-bs-toggle="dropdown" aria-expanded="false">커뮤니티</a>
 
                             <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
-                                <li><a class="dropdown-item" href="listing-page.html">동행 구하기</a></li>
+                                <li><a class="dropdown-item" href="friends.html">동행 구하기</a></li>
 
-                                <li><a class="dropdown-item" href="detail-page.html">모으미 게시판</a></li>
+                                <li><a class="dropdown-item" href="gaesi.html">모으미 게시판</a></li>
+                            </ul>
+                        </li>
+
+						<li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarLightDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">지역별</a>
+
+                            <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
+								<li><a class="dropdown-item" href="seoul.html">서울</a></li>
+
+                                <li><a class="dropdown-item" href="gyeonggi.html">경기/인천</a></li>
+
+								<li><a class="dropdown-item" href="chung.html">충청/강원</a></li>
+
+								<li><a class="dropdown-item" href="daejeon.html">대전/세종</a></li>
+
+								<li><a class="dropdown-item" href="busan.html">부산/울산</a></li>
+
+								<li><a class="dropdown-item" href="gyeongsang.html">경상/대구</a></li>
+								
+								<li><a class="dropdown-item" href="gangwon.html">광주/전라</a></li>
+								
+								<li><a class="dropdown-item" href="jeju.html">제주</a></li>
                             </ul>
                         </li>
 
@@ -83,15 +114,14 @@
                                 data-bs-toggle="dropdown" aria-expanded="false">마이 페이지</a>
 
                             <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
-                                <li><a class="dropdown-item" href="listing-page.html">고객센터</a></li>
 
-                                <li><a class="dropdown-item" href="detail-page.html">Q&A</a></li>
+                                <li><a class="dropdown-item" href="Q&A.html">FAQ</a></li>
 
 								<li><a class="dropdown-item" href="gudok.html">구독하기</a></li>
                             </ul>
                         </li>
 						<li class="nav-item">
-                            <a class="nav-link" href="#"><i class="fa-solid fa-user"></i></a>
+                            <a class="nav-link" href="login.html"><i class="fa-solid fa-user"></i></a>
                         </li>
 
 						
@@ -116,6 +146,7 @@
 
 							<div class="owl-carousel owl-theme">
 								<div class="owl-carousel-info-wrap item">
+									<a href="ex_dt_spongey.html">
 									<img src="images/spongey.gif"
 										class="owl-carousel-image img-fluid" alt="">
 
@@ -126,18 +157,19 @@
 
 										<span class="badge">EXHIBITION</span>
 
-									</div>
+									</div></a>
 
 									<div class="social-share">
 										<ul class="social-icon">
 											<li class="social-icon-item">
-												<a href="#"><i class="fa-solid fa-plus fa-2xl"></i></i></a>
+												<a href="ex_dt_spongey.html"><i class="fa-solid fa-magnifying-glass fa-xl"></i></a>
 											</li>
 										</ul>
 									</div>
 								</div>
 
 								<div class="owl-carousel-info-wrap item">
+									<a href="fes_dt_(sbrf).html">
 									<img src="images/rock.gif"
 										class="owl-carousel-image img-fluid" alt="">
 
@@ -148,13 +180,14 @@
 									<div class="social-share">
 										<ul class="social-icon">
 											<li class="social-icon-item">
-												<a href="#"><i class="fa-solid fa-plus fa-2xl"></i></i></a>
+												<a href="fes_dt_(sbrf).html"><i class="fa-solid fa-magnifying-glass fa-xl"></i></a>
 											</li>
 										</ul>
-									</div>
+									</div></a>
 								</div>
 
 								<div class="owl-carousel-info-wrap item">
+									<a href="fes_dt_(indie).html">
 									<img src="images/indi.gif"
 										class="owl-carousel-image img-fluid" alt="">
 
@@ -166,14 +199,15 @@
 									<div class="social-share">
 										<ul class="social-icon">
 											<li class="social-icon-item">
-												<a href="#"><i class="fa-solid fa-plus fa-2xl"></i></a>
+												<a href="fes_dt_(indie).html"><i class="fa-solid fa-magnifying-glass fa-xl"></i></a>
 											</li>
 										</ul>
-									</div>
+									</div></a>
 								</div>
 
 								<div class="owl-carousel-info-wrap item">
-									<img src="images/2.jpg" class="owl-carousel-image img-fluid" alt="">
+									<a href="pop_dt_(choi) .html">
+									<img src="images/choi.jpg" class="owl-carousel-image img-fluid" alt="">
 
 									<div class="owl-carousel-info">
 										<span class="badge">POP UP</span>
@@ -182,13 +216,14 @@
 									<div class="social-share">
 										<ul class="social-icon">
 											<li class="social-icon-item">
-												<a href="#"><i class="fa-solid fa-plus fa-2xl"></i></a>
+												<a href="pop_dt_(choi) .html"><i class="fa-solid fa-magnifying-glass fa-xl"></i></a>
 											</li>
 										</ul>
-									</div>
+									</div></a>
 								</div>
 				
 								<div class="owl-carousel-info-wrap item">
+									<a href="pop_dt_(boong) .html">
 									<img src="images/1.jpg"
 										class="owl-carousel-image img-fluid" alt="">
 
@@ -199,13 +234,14 @@
 									<div class="social-share">
 										<ul class="social-icon">
 											<li class="social-icon-item">
-												<a href="#"><i class="fa-solid fa-plus fa-2xl"></i></a>
+												<a href="pop_dt_(boong) .html"><i class="fa-solid fa-magnifying-glass fa-xl"></i></a>
 											</li>
 										</ul>
-									</div>
+									</div></a>
 								</div>
 
 								<div class="owl-carousel-info-wrap item">
+									<a href="ex_dt_leegj.html">
 									<img src="images/leegj.gif"
 										class="owl-carousel-image img-fluid" alt="">
 
@@ -216,10 +252,10 @@
 									<div class="social-share">
 										<ul class="social-icon">
 											<li class="social-icon-item">
-												<a href="#"><i class="fa-solid fa-plus fa-2xl"></i></a>
+												<a href="ex_dt_leegj.html"><i class="fa-solid fa-magnifying-glass fa-xl"></i></a>
 											</li>
 										</ul>
-									</div>
+									</div></a>
 								</div>
 							</div>
 						</div>
@@ -244,7 +280,7 @@
 
 					<!-- Start Column 2 -->
 					<div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
-						<a class="product-item" href="#">
+						<a class="product-item" href="ex_dt_spongey.html">
 							<img src="images/spongey.gif" class="img-fluid product-thumbnail">
 							<h3 class="product-title">스폰지밥의 우당탕탕 <br>시간여행展</h3>
 							<strong class="product-price">23.08.12<br>~ 23.12.31</strong>
@@ -258,7 +294,7 @@
 
 					<!-- Start Column 3 -->
 					<div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
-						<a class="product-item" href="cart.html">
+						<a class="product-item" href="ex_dt_leegj.html">
 							<img src="images/leegj.gif" class="img-fluid product-thumbnail">
 							<h3 class="product-title">［얼리버드］이경준 사진전:<br>원 스텝 어웨이</h3>
 							<strong class="product-price">23.10.27<br>~ 24.03.31</strong>
@@ -272,7 +308,7 @@
 
 					<!-- Start Column 4 -->
 					<div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
-						<a class="product-item" href="cart.html">
+						<a class="product-item" href="ex_dt_van.html">
 							<img src="images/van.gif" class="img-fluid product-thumbnail">
 							<h3 class="product-title">반고흐 인 서울</h3>
 							<strong class="product-price">23.10.07<br>~ 23.12.15</strong>
@@ -303,10 +339,10 @@
 
 					<!-- Start Column 2 -->
 					<div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
-						<a class="product-item" href="#">
-							<img src="images/rabbit.jpg" class="img-fluid product-thumbnail">
-							<h3 class="product-title">socks appeal x Nathalie Lete</h3>
-							<strong class="product-price">23.10.05<br>~ 23. 10.15</strong>
+						<a class="product-item" href="pop_dt_mas.html">
+							<img src="pop/MACMOC.jpg" class="img-fluid product-thumbnail">
+							<h3 class="product-title">MACMOC 마크모크</h3>
+							<strong class="product-price"> 2023.09.15<br>~ 2023.10.31</strong>
 
 							<span class="icon-cross">
 								<img src="images/cross.svg" class="img-fluid">
@@ -317,7 +353,7 @@
 
 					<!-- Start Column 3 -->
 					<div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
-						<a class="product-item" href="cart.html">
+						<a class="product-item" href="pop_dt_per.html">
 							<img src="images/persil.jpg" class="img-fluid product-thumbnail">
 							<h3 class="product-title">Persil DISCS</h3>
 							<strong class="product-price">23.10.07<br>~ 23.10.15</strong>
@@ -331,7 +367,7 @@
 
 					<!-- Start Column 4 -->
 					<div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
-						<a class="product-item" href="cart.html">
+						<a class="product-item" href="pop_dt_(boong) .html">
 							<img src="images/boong.jpg" class="img-fluid product-thumbnail">
 							<h3 class="product-title">제 1의 맛집<br>: 우주붕어</h3>
 							<strong class="product-price">23.10.06<br>~ 23.10.26</strong>
@@ -362,7 +398,7 @@
 
 					<!-- Start Column 2 -->
 					<div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
-						<a class="product-item" href="#">
+						<a class="product-item" href="fes_dt_(sbrf).html">
 							<img src="images/rock.gif" class="img-fluid product-thumbnail">
 							<h3 class="product-title">2023 세종보헤미안락페스티벌</h3>
 							<strong class="product-price">23.10.14<br>~ 23. 10.15</strong>
@@ -376,7 +412,7 @@
 
 					<!-- Start Column 3 -->
 					<div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
-						<a class="product-item" href="cart.html">
+						<a class="product-item" href="fes_dt_(indie).html">
 							<img src="images/indi.gif" class="img-fluid product-thumbnail">
 							<h3 class="product-title">경기인디뮤직페스티벌 2023<br>- inmufe 2023</h3>
 							<strong class="product-price">23.10.13<br>~ 23.10.15</strong>
@@ -390,10 +426,10 @@
 
 					<!-- Start Column 4 -->
 					<div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
-						<a class="product-item" href="cart.html">
-							<img src="images/nagi.gif" class="img-fluid product-thumbnail">
-							<h3 class="product-title">2023 THE CRY ground</h3>
-							<strong class="product-price">23.10.14<br>~ 23.10.15</strong>
+						<a class="product-item" href="fes_dt_(bbang).html">
+							<img src="festi/bbang.jpg" class="img-fluid product-thumbnail">
+							<h3 class="product-title">2023 빵빵데이 천안</h3>
+							<strong class="product-price">23.10.21<br>~ 23.10.22</strong>
 
 							<span class="icon-cross">
 								<img src="images/cross.svg" class="img-fluid">
@@ -417,8 +453,16 @@
 
 				<div class="row g-5 mb-5">
 					<div class="col-lg">
-						<div class="mb-4 footer-logo-wrap"><a href="#" class="footer-logo">MOUME<span>.</span></a></div>
-						<p class="mb-4">전국 전시회, 팝업스토어, 그리고 페스티벌을 모아둔 사이트. 주저리주저리떠들기. 뭐라고 써야지 기깔나고 이 많은 줄을 채울 수 있을까. 지금은 10월 7일 10시 21분. 흥</p>
+						<div class="mb-4 footer-logo-wrap"><a href="#" class="footer-logo">MOUMI<span>.</span></a></div>
+						<p class="mb-4"> " MOUMI "
+							지금 바로, 문화를 즐겨요 ! <br><br>
+							
+							MOUMI는 대중들이 보다 쉽게 예술을 접할 수 있고 향유 할 수 있는 촉매제로서의 역할을 하기 위해 다양한 예술 분야를 모은 사이트입니다. 
+							대중을 위한 다채로운 문화 프로그램을 제공하여 예술과 대중의 거리를 좁혀 보다 나은 예술과 함께 하는 삶 (Artful Life) 을 목표로 하고 있습니다.
+							
+							MOUMI는 직접적인 교류를 통해 공간에 새로운 가치를 불어넣을 수 있는 기회를 제공합니다. 더 나아가 최신 전시회, 팝업스토어, 페스티벌의 만남을 선보이고 새로운 라이프스타일을 제시하고자 합니다. 
+							<br><br>
+							문화가 빠질 수 없는 요즘, 모으미와 함께 시대에 맞추어 잃어버린 나의 취향을 찾아가요.</p>
 
 						<ul class="list-unstyled custom-social">
 							<li><a href="#"><span class="fa fa-brands fa-facebook-f"></span></a></li>
@@ -429,7 +473,6 @@
 
 					
 				</div>
-
 				
 
 			</div>

@@ -500,7 +500,7 @@ a {
         background-color: #3b5d50; }
 
 .before-footer-section {
-  padding: 7rem 0 12rem 0 !important; }
+  padding: 7rem  12rem  !important; }
 
 .blog-section {
   padding: 7rem 0 12rem 0; }
@@ -604,7 +604,7 @@ a {
       text-align: center;
       line-height: 40px;
       display: inline-block;
-      background: #dce5e4;
+      background: #ffffff;
       color: #000000;
       border-radius: 50%; }
       .footer-section .custom-social li a:hover {
